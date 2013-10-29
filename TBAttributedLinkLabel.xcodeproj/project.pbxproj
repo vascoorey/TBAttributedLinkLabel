@@ -1,0 +1,96 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		BCD9EA34181FFBB5004CA624 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BCD9EA35181FFBB5004CA624 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		BCD9EA38181FFBB5004CA624 /* TBAttributedLinkLabel.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = TBAttributedLinkLabel.podspec; sourceTree = "<group>"; };
+		BCD9EA3B181FFBF1004CA624 /* TBAttributedLinkLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAttributedLinkLabel.h; sourceTree = "<group>"; };
+		BCD9EA3C181FFBF1004CA624 /* TBAttributedLinkLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAttributedLinkLabel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		BCD9EA2D181FFAF3004CA624 = {
+			isa = PBXGroup;
+			children = (
+				BCD9EA3A181FFBF1004CA624 /* TBAttributedLinkLabel */,
+				BCD9EA39181FFBBC004CA624 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD9EA39181FFBBC004CA624 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9EA34181FFBB5004CA624 /* LICENSE */,
+				BCD9EA35181FFBB5004CA624 /* README.md */,
+				BCD9EA38181FFBB5004CA624 /* TBAttributedLinkLabel.podspec */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD9EA3A181FFBF1004CA624 /* TBAttributedLinkLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9EA3B181FFBF1004CA624 /* TBAttributedLinkLabel.h */,
+				BCD9EA3C181FFBF1004CA624 /* TBAttributedLinkLabel.m */,
+			);
+			path = TBAttributedLinkLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		BCD9EA2E181FFAF3004CA624 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = BCD9EA31181FFAF3004CA624 /* Build configuration list for PBXProject "TBAttributedLinkLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCD9EA2D181FFAF3004CA624;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		BCD9EA32181FFAF3004CA624 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		BCD9EA33181FFAF3004CA624 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD9EA31181FFAF3004CA624 /* Build configuration list for PBXProject "TBAttributedLinkLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD9EA32181FFAF3004CA624 /* Debug */,
+				BCD9EA33181FFAF3004CA624 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD9EA2E181FFAF3004CA624 /* Project object */;
+}

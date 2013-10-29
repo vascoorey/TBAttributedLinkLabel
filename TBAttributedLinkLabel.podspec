@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Vasco Orey" => "vasco.orey@gmail.com" }
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://github.com/vascoorey/TBAttributedLinkLabel.git", :tag => "0.0.1" }
-  s.source_files  = '*.{h,m}'
+  s.source_files  = 'TBAttributedLinkLabel/*.{h,m}'
   s.ios.frameworks = 'Foundation', 'UIKit', 'CoreText'
   s.ios.deployment_target = '6.0' # minimum SDK with autolayout
   s.requires_arc = true
