@@ -14,6 +14,7 @@ Example
   label.delegate = self;
   NSMutableAttributedString *mas = [[NSMutableAttributedString alloc] initWithString:@"this link should be tappable"];
   [mas addAttribute:@"link" value:[NSURL URLWithString:@"www.github.com/vascoorey/TBAttributedLinkLabel"] range:NSMakeRange(5, 4)];
+  // You will also want to add colors etc.
   label.attributedText = mas;
   ...
 }
