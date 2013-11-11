@@ -6,15 +6,15 @@ A UILabel subclass that enables tapping on embedded links.
 Example
 ====
 
-In this example we'll be using [BOMarkdownParser](https://github.com/danieleggert/MarkdownParser) to parse a markdown string to an NSAttributedString.
-
 ```objective-c
 -(void)viewDidLoad
 {
   [super viewDidLoad];
-  TBAttributedLinkLabel *label = [[TBAttributedLinkLabel alloc] initWithLinkAttributeKey:BOLink];
+  TBAttributedLinkLabel *label = [[TBAttributedLinkLabel alloc] initWithLinkAttributeKey:@"link"];
   label.delegate = self;
-  label.attributedText = [[BOMarkdownParser parser] parseString:markdownString];
+  NSMutableAttributedString *mas = [[NSMutableAttributedString alloc] initWithString:@"this link should be tappable"];
+  [mas addAttribute:@"link" value:[NSURL URLWithString:@"www.github.com/vascoorey/TBAttributedLinkLabel"] range:NSMakeRange(5, 4)];
+  label.attributedText = mas;
   ...
 }
 
